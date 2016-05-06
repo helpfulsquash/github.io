@@ -1,0 +1,161 @@
+body {
+    font-size: 16px; 
+    font-family: Lato, sans-serif;
+    line-height: 2;
+    color: #818181;
+}
+
+h2 {
+	font-size: 40px;
+    text-transform: uppercase;
+    color: #05B5D6;
+    font-weight: 500;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+h3 {
+	font-size: 30px;
+    color: #05B5D6;
+    font-weight: 400;
+    margin-bottom: 30px; 
+}
+
+h4 {
+	font-size: 20px;
+    color: #303030;
+    font-weight: 600;
+}
+
+.jumbotron { 
+    background-color: #05B5D6; 
+    color: #f7f9fe;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0px;
+}
+
+.jumbotron h2 {
+	color: #f7f9fe;
+	font-family: Montserrat, sans-serif;
+	font-size: 32px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; 
+  display:    flex;
+  align-items: center;
+}
+
+.bg-persistence {
+    background-color: #f6f6f6;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+
+.container-fluid {  
+	padding: 90px 180px; 
+}
+
+.row-bottom-buffer {
+	margin-bottom: 30px;
+}
+
+.logo-med {
+	color: #05B5D6;
+    font-size: 45px;
+    margin-right: 12px;
+    vertical-align: middle;	
+}
+
+.specifics {
+    font-weight: bold;
+    color: #05B5D6;
+}
+
+#specifics {
+    font-size: 18px;
+    line-height: 3;
+}
+
+.padding {
+    padding-left: 60px;
+}
+
+.border {
+    border-top: 2px dotted #303030;
+    border-bottom: 2px dotted #303030;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+hr	{
+	background-color: #fff;
+	border-top: 2px dotted #303030;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+img {
+	border: 6px solid #f6f6f6;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #05B5D6;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #05B5D6  !important;
+    background-color: #f6f6f6 !important;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f7f9fe;
+}
+
+.navbar-default .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a:link {
+    color: #05B5D6 ;
+}
+
+a:visited {                   /*why isnt this working*/
+    color: #05B5D6;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #05B5D6;
+    font-weight: bold;
+}
+
+
+
+
